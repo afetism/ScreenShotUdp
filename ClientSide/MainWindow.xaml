@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Client" Height="350" Width="300">
     <StackPanel>
-        <Button Command="{Binding StartCommand}">Start</Button>
+        <Image Height="200" Width="200" Source="{Binding ImageOpenClose}"></Image>
+        <Button Height="50" Width="100" Margin="10" Command="{Binding StartCommand}">Start</Button>
     </StackPanel>
 </Window>

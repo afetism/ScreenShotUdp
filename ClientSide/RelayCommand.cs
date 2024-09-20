@@ -2,7 +2,7 @@
 
 namespace ClientSide;
 
-public class RelayCommand
+public class RelayCommand:ICommand
 {
     private Action<object> execute;
     private Func<object, bool> canExecute;
